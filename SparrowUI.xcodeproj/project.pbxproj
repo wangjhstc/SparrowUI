@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A77E3AF1DB46ECC00089E13 /* login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A77E3AE1DB46ECC00089E13 /* login.xcassets */; };
+		8A77E3B31DB5E95F00089E13 /* CommodityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A77E3B21DB5E95F00089E13 /* CommodityViewController.m */; };
+		8A77E3B61DB5F6D200089E13 /* ConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A77E3B51DB5F6D200089E13 /* ConfirmOrderViewController.m */; };
 		8AD4B6891D9CAEB0004C8704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6881D9CAEB0004C8704 /* main.m */; };
 		8AD4B68C1D9CAEB0004C8704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B68B1D9CAEB0004C8704 /* AppDelegate.m */; };
 		8AD4B68F1D9CAEB0004C8704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B68E1D9CAEB0004C8704 /* ViewController.m */; };
 		8AD4B6921D9CAEB0004C8704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B6901D9CAEB0004C8704 /* Main.storyboard */; };
 		8AD4B6941D9CAEB0004C8704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B6931D9CAEB0004C8704 /* Assets.xcassets */; };
 		8AD4B6971D9CAEB0004C8704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B6951D9CAEB0004C8704 /* LaunchScreen.storyboard */; };
-		8AD4B69F1D9CAF0C004C8704 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B69E1D9CAF0C004C8704 /* Podfile */; };
+		8AD4B77E1D9E4CFE004C8704 /* UILabel+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B77D1D9E4CFE004C8704 /* UILabel+Style.m */; };
+		8AD4B7821D9E5440004C8704 /* Dispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B7811D9E5440004C8704 /* Dispatch.m */; };
+		EE0ABB44BD4CC68DE36A2669 /* Pods_SparrowUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03CBD0AB69C54D69F4ABCC4 /* Pods_SparrowUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32A85F378D1CB79D63A171B0 /* Pods-SparrowUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparrowUI/Pods-SparrowUI.debug.xcconfig"; sourceTree = "<group>"; };
+		70812CE90AC45406E83184A3 /* Pods-SparrowUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparrowUI/Pods-SparrowUI.release.xcconfig"; sourceTree = "<group>"; };
+		8A77E3AE1DB46ECC00089E13 /* login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = login.xcassets; sourceTree = "<group>"; };
+		8A77E3B11DB5E95F00089E13 /* CommodityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityViewController.h; sourceTree = "<group>"; };
+		8A77E3B21DB5E95F00089E13 /* CommodityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommodityViewController.m; sourceTree = "<group>"; };
+		8A77E3B41DB5F6D200089E13 /* ConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmOrderViewController.h; sourceTree = "<group>"; };
+		8A77E3B51DB5F6D200089E13 /* ConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmOrderViewController.m; sourceTree = "<group>"; };
 		8AD4B6841D9CAEB0004C8704 /* SparrowUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD4B6881D9CAEB0004C8704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AD4B68A1D9CAEB0004C8704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +39,11 @@
 		8AD4B6931D9CAEB0004C8704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AD4B6961D9CAEB0004C8704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AD4B6981D9CAEB0004C8704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AD4B69E1D9CAF0C004C8704 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8AD4B77C1D9E4CFE004C8704 /* UILabel+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Style.h"; sourceTree = "<group>"; };
+		8AD4B77D1D9E4CFE004C8704 /* UILabel+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Style.m"; sourceTree = "<group>"; };
+		8AD4B7801D9E5440004C8704 /* Dispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dispatch.h; sourceTree = "<group>"; };
+		8AD4B7811D9E5440004C8704 /* Dispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispatch.m; sourceTree = "<group>"; };
+		E03CBD0AB69C54D69F4ABCC4 /* Pods_SparrowUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparrowUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,18 +51,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0ABB44BD4CC68DE36A2669 /* Pods_SparrowUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2164162660F2C053940A8C77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A85F378D1CB79D63A171B0 /* Pods-SparrowUI.debug.xcconfig */,
+				70812CE90AC45406E83184A3 /* Pods-SparrowUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A77E3AD1DB46EA900089E13 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8A77E3AE1DB46ECC00089E13 /* login.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8A77E3B01DB5E94100089E13 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A77E3B11DB5E95F00089E13 /* CommodityViewController.h */,
+				8A77E3B21DB5E95F00089E13 /* CommodityViewController.m */,
+				8A77E3B41DB5F6D200089E13 /* ConfirmOrderViewController.h */,
+				8A77E3B51DB5F6D200089E13 /* ConfirmOrderViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		8AD4B67B1D9CAEB0004C8704 = {
 			isa = PBXGroup;
 			children = (
-				8AD4B69E1D9CAF0C004C8704 /* Podfile */,
 				8AD4B6861D9CAEB0004C8704 /* SparrowUI */,
 				8AD4B6851D9CAEB0004C8704 /* Products */,
+				2164162660F2C053940A8C77 /* Pods */,
+				BCF134A51EAD2AE0F34B17AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +107,9 @@
 		8AD4B6861D9CAEB0004C8704 /* SparrowUI */ = {
 			isa = PBXGroup;
 			children = (
+				8A77E3B01DB5E94100089E13 /* ViewController */,
+				8A77E3AD1DB46EA900089E13 /* Assets */,
+				8AD4B7741D9E4B46004C8704 /* Resource */,
 				8AD4B68A1D9CAEB0004C8704 /* AppDelegate.h */,
 				8AD4B68B1D9CAEB0004C8704 /* AppDelegate.m */,
 				8AD4B68D1D9CAEB0004C8704 /* ViewController.h */,
@@ -82,6 +131,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8AD4B7741D9E4B46004C8704 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4B77F1D9E5335004C8704 /* Dispatch */,
+				8AD4B77B1D9E4CFE004C8704 /* UILable */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8AD4B77B1D9E4CFE004C8704 /* UILable */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4B77C1D9E4CFE004C8704 /* UILabel+Style.h */,
+				8AD4B77D1D9E4CFE004C8704 /* UILabel+Style.m */,
+			);
+			path = UILable;
+			sourceTree = "<group>";
+		};
+		8AD4B77F1D9E5335004C8704 /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4B7801D9E5440004C8704 /* Dispatch.h */,
+				8AD4B7811D9E5440004C8704 /* Dispatch.m */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		BCF134A51EAD2AE0F34B17AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03CBD0AB69C54D69F4ABCC4 /* Pods_SparrowUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AD4B69B1D9CAEB0004C8704 /* Build configuration list for PBXNativeTarget "SparrowUI" */;
 			buildPhases = (
+				66CF6B8CAC6A28786E95F52C /* [CP] Check Pods Manifest.lock */,
 				8AD4B6801D9CAEB0004C8704 /* Sources */,
 				8AD4B6811D9CAEB0004C8704 /* Frameworks */,
 				8AD4B6821D9CAEB0004C8704 /* Resources */,
+				4072261726333B0A10F742AC /* [CP] Embed Pods Frameworks */,
+				3F9A32DFE2A5E9C528F80D8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -113,7 +200,7 @@
 				TargetAttributes = {
 					8AD4B6831D9CAEB0004C8704 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -142,21 +229,73 @@
 			files = (
 				8AD4B6971D9CAEB0004C8704 /* LaunchScreen.storyboard in Resources */,
 				8AD4B6941D9CAEB0004C8704 /* Assets.xcassets in Resources */,
-				8AD4B69F1D9CAF0C004C8704 /* Podfile in Resources */,
 				8AD4B6921D9CAEB0004C8704 /* Main.storyboard in Resources */,
+				8A77E3AF1DB46ECC00089E13 /* login.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F9A32DFE2A5E9C528F80D8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparrowUI/Pods-SparrowUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4072261726333B0A10F742AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparrowUI/Pods-SparrowUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66CF6B8CAC6A28786E95F52C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AD4B6801D9CAEB0004C8704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD4B77E1D9E4CFE004C8704 /* UILabel+Style.m in Sources */,
+				8AD4B7821D9E5440004C8704 /* Dispatch.m in Sources */,
 				8AD4B68F1D9CAEB0004C8704 /* ViewController.m in Sources */,
 				8AD4B68C1D9CAEB0004C8704 /* AppDelegate.m in Sources */,
+				8A77E3B31DB5E95F00089E13 /* CommodityViewController.m in Sources */,
 				8AD4B6891D9CAEB0004C8704 /* main.m in Sources */,
+				8A77E3B61DB5F6D200089E13 /* ConfirmOrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -264,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -274,8 +413,10 @@
 		};
 		8AD4B69C1D9CAEB0004C8704 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A85F378D1CB79D63A171B0 /* Pods-SparrowUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SparrowUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsparrow.SparrowUI;
@@ -285,8 +426,10 @@
 		};
 		8AD4B69D1D9CAEB0004C8704 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70812CE90AC45406E83184A3 /* Pods-SparrowUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SparrowUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsparrow.SparrowUI;
