@@ -15,8 +15,7 @@
     
 }
 
-
-+ (void)gobal:(void(^)())block {
++ (void)gobal:(void(^)(void))block {
     static dispatch_queue_t queue;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -31,12 +30,12 @@
 }
 
 
-+ (void)async:(void(^)())block identifer:(long)identifer {
++ (void)async:(void(^)(void))block identifer:(long)identifer {
     
 }
 
 
-+ (void)asycn:(void(^)())block {
++ (void)asycn:(void(^)(void))block {
     
     static dispatch_queue_t queue;
     static dispatch_once_t onceToken;

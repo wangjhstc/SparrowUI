@@ -10,8 +10,8 @@
 
 @interface Dispatch : NSObject
 
-+ (void)gobal:(void(^)())block;
++ (void)gobal:(void(^)(void))block;
 
-+ (void)asycn:(void(^)())block;
++ (void)asycn:(void(^)(void))block;
 
 @end

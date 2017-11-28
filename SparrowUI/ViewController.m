@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "BInterface.h"
+//#import "BInterface.h"
 #import "MInterface.h"
+
+@import SparrowBusiness;
 
 //MARK:IBOutlet
 @interface ViewController ()
